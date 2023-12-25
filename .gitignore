@@ -1,0 +1,61 @@
+# .gitignore
+
+# Node.js
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Dependency directories
+/pnpm-debug.log
+pnpm-lock.yaml
+
+# Environment
+.env
+
+# Compiled files
+/dist/
+/build/
+
+# Logs and runtime data
+/logs/
+/tmp/
+
+# IDEs and editors
+/.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# User-specific files
+*.sublime-workspace
+*.sublime-project
+*.komodoproject
+.komodotools/
+.komodotools-*
+
+# Project-specific files
+.eslintcache
+.eslintignore
+.eslintrc
+.prettierignore
+.prettierrc
+tailwind.config.js
+vite.config.js
+
+# Build files
+dist/
+out/
+
+# Yarn
+yarn.lock
+
+# System Files
+.DS_Store
+Thumbs.db
